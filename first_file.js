@@ -2,9 +2,9 @@ function inRange(n, start, end) {
     // Add any parameters you need. Good luck!
   
     // if end is null, end becomes start and start becomes 0
-    if (end === undefined){
+    if (end === 1){
       end = start;
-      start = 0;
+      start = 1;
     }
     // if start is greater than end, switch start and end
     if (end < start){
