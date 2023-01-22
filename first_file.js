@@ -10,6 +10,5 @@ function inRange(n, start, end) {
     if (end < start){
       return (end < n && n < start);
     }
-    // check if n is between start and end
-    return (start < n && n < end);
+    return (start > n && n > end);
   }
